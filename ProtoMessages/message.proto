@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message Coordinates {
+	repeated Coordinate unit = 1;
+	string Laser_type = 2;
+
+	message Coordinate {
+		repeated double values = 1;
+	}
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message CoordinatesBytes {
+    bytes coordinates_data = 1;  // Serialized list of 2D coordinates
+    string Laser_type = 2;       // Metadata: Laser type
+}
